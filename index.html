@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+
+<head>
+    <title>To-Do</title>
+    <link rel="stylesheet" type="text/css" href="css/indexstyle.css">
+</head>
+
+<body>
+    <nav>
+        <h2> To-Do </h2>
+    </nav>
+
+    <section class="one">
+        <div class="wrap">
+            <div class="text">
+                <p>To Do is a sipmple web based application built using HTML, CSS and Vanilla Javascript that allows users to keep track of their activities. Users have an option to add and remove tasks once they are completed.
+                </p>
+                <p>
+                    <img src="image/sample.PNG" style="float:left; height: 445px;">
+                    <button id="openfile" onclick="openfile()">Go To App</button>
+                </p>
+                <br>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function openfile() {
+            window.location.replace("app.html")
+        }
+    </script>
+
+</body>
+
+</html>

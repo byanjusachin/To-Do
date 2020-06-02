@@ -1,0 +1,37 @@
+body {
+    background: #5cdb95;
+}
+
+nav {
+    background-color: #EDF5E1;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+}
+
+nav h2 {
+    color: black;
+    font-family: monospace;
+    text-align: center;
+}
+
+section .text {
+    color: black;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: justify;
+}
+
+.one button {
+    width: 200px;
+    height: 50px;
+    margin-left: 35%;
+    position: relative;
+    align-items: center;
+    transition-duration: 0.4s;
+}
+
+.one button:hover {
+    background-color: #5cdb95;
+    color: white;
+}
