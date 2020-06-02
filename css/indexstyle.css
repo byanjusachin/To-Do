@@ -20,24 +20,25 @@ nav h2 {
 
 section .text {
     color: black;
-    font-size: 25px;
     font-family: monospace;
     text-align: justify;
+    margin: 10%; 
+    font-size: 18px;
 }
 
 .one button {
-    width: 200px;
-    height: 50px;
-    margin-left: 40%;
-    position: absolute;
+    width: 30%;
+   height: 60%;
+   margin-top: 5%;
+    margin-left: 30%;
+
     align-items: center;
     transition-duration: 0.4s;
-    justify-content: center;
-    display: flex;
+  
+
     top: 50%;
     bottom: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+
 }
 
 .one button:hover {
