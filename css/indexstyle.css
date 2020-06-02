@@ -1,18 +1,21 @@
 body {
     background: #5cdb95;
+    margin: 0px;
 }
 
 nav {
-    background-color: #EDF5E1;
-    margin: 0%;
+    background-color: #FFE77AFF;
+    margin: 0px;
     padding: 0%;
     width: auto;
+    height: 50px;
+    text-align: center;
 }
 
 nav h2 {
     color: black;
     font-family: monospace;
-    text-align: center;
+    display: inline-block;
 }
 
 section .text {
@@ -25,10 +28,16 @@ section .text {
 .one button {
     width: 200px;
     height: 50px;
-    margin-left: 35%;
-    position: relative;
+    margin-left: 40%;
+    position: absolute;
     align-items: center;
     transition-duration: 0.4s;
+    justify-content: center;
+    display: flex;
+    top: 50%;
+    bottom: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .one button:hover {
