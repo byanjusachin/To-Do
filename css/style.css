@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     text-align: center;
     background: whitesmoke;
-    overflow: scroll;
+    overflow: auto;
     color: black;
     border: 1px solid black;
     border-radius: 5px 10px;
